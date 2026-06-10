@@ -42,13 +42,15 @@ header{
 .sociais{
     display: flex;
     justify-content: flex-end;
-    width: 20%;
-    padding-right: 25px;
+    width: 25%;
+    padding-right: 30px;
 }
 
+/* ÍCONES SOCIAIS - ISSO FAZ ELES APARECEREM */
 .sociais img {
-    width: 25px;  /* Tamanho dos ícones sociais */
+    width: 30px;
     height: auto;
+    margin-left: 10px;
 }
 
 .banner1{
@@ -61,11 +63,13 @@ header{
     text-align: center;
 }
 
+/* NOME SABRYNA SILVA - FONTE CORRETA */
 .estudante-nome{
     text-align: center;
-    font-family: 'Playfair Display', serif;  /* Fonte correta */
-    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
     font-weight: 600;
+    color: #84B179;
 }
 
 .estudante-imagem{
@@ -78,7 +82,7 @@ header{
 }
 
 .estudante{
-    background-image: background-color(#faae43);
+    background-color: #faae43;
     padding: 24px 0;
 }
 
