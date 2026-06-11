@@ -6,6 +6,8 @@ box-sizing: border-box;
 }
 body{
 font-family: "Poppins", sans-serif;
+max-width: 1200px;     /* ← ADICIONE ESTA LINHA */
+margin: 0 auto;        /* ← ADICIONE ESTA LINHA */
 }
 header{
 background-color:  #84B179;
