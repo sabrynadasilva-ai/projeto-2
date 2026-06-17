@@ -41,7 +41,7 @@ width: 25%;
 padding-right: 30px;
 }
 .banner1{
-    height: 250px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,7 @@ padding-right: 30px;
 }
 
 .banner-texto h1{
-    font-size: 60px;
+    font-size: 40px;
     color: #792CA2;
 }
 
