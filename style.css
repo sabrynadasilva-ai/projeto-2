@@ -99,14 +99,16 @@ padding: 24px 0;
 }
 
 .escola{
-background-image: linear-gradient(#40A2E3,#7FC2EF);
-color: white;
-display: flex;
-justify-content:center;
-padding: 24px 0;
-text-align:center;
-display:block;
+    background-image: linear-gradient(#6a1b9a, #8e24aa); /* troca a cor azul aqui */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 16px 0; /* diminui a altura */
 }
+
 .escola-titulo{
 padding: 50px;
 text-align: center;
