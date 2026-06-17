@@ -36,8 +36,8 @@ font: 30px;
 .sociais{
 display: flex;
 justify-content: flex-end;
-width: 23%;
-padding-right: 28px;
+width: 25%;
+padding-right: 30px;
 }
 .banner1{
 display: flex;
