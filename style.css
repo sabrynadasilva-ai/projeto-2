@@ -40,9 +40,26 @@ width: 25%;
 padding-right: 30px;
 }
 .banner1{
-display: flex;
-justify-content: center;
+    height: 250px;
+    background: #E8DDF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.banner-texto{
+    text-align: center;
+}
+
+.banner-texto h1{
+    font-size: 60px;
+    color: #792CA2;
+}
+
+.banner-texto p{
+    font-size: 24px;
+}
+
 .estudante_titulo{
 padding: 50px;
 text-align: center;
@@ -63,20 +80,21 @@ background-image: background-color(#faae43);
 padding: 24px 0;
 }
 
-.estudante.div{
- text-align: center;
-    padding: 20px;
-    width: 180px;
+.estudante-div{
+    width: 200px;
+    background: white;
     border-radius: 15px;
-    background-color: white;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
 }
-.estudantes_todos{
+
+  .estudantes.todos{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
