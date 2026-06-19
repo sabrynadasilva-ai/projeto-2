@@ -10,7 +10,7 @@ font-family: "Poppins", sans-serif;
 }
 
 header{
-background-color: #9E1C60;
+background-color: #760031;
 color: rgb(243, 134, 225);
 width: 100%;
 padding: 40px 25px;
@@ -58,7 +58,7 @@ padding-right: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FF0B55;
+    background-color: #BD114A;
 }
 
 .banner-texto{
