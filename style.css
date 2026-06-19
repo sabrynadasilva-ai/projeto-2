@@ -52,7 +52,7 @@ padding-right: 30px;
 }
 
 .banner1{
-      height: 180px;
+      height: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,14 +114,13 @@ padding: 4px 8px;
 
 
 .escola{
-background-image: linear-gradient(#40A2E3,#7FC2EF);
+background-image: linear-gradient(#6A1B9A,#8E44AD);
 color: white;
-display: flex;
-justify-content:center;
-padding: 24px 0;
+display: block;
 text-align:center;
-display:block;
+padding: 24px 0;
 }
+
 .escola-titulo{
 padding: 50px;
 text-align: center;
