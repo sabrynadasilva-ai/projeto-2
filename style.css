@@ -29,10 +29,7 @@ padding: 35px 20px;
     object-fit: cover;
 }
 
-.sociais img{
-    width: 45px;
-    height: 45px;
-}
+
 
 .titulo_site{
  flex: 1;
