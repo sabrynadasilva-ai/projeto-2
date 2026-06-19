@@ -64,13 +64,22 @@ padding: 24px 0;
 }
 
 .estudante.div{
-text-align: center;
-padding: 24px 0;
+ text-align: center;
+    padding: 20px;
+    width: 180px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 .estudantes_todos{
-display: flex;
-justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
 .escola{
 background-image: linear-gradient(#40A2E3,#7FC2EF);
 color: white;
