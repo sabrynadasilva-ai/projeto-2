@@ -58,7 +58,7 @@ padding-right: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E8DDF5;
+    background-color: #FF0B55;
 }
 
 .banner-texto{
@@ -116,7 +116,7 @@ padding: 4px 8px;
 
 
 .escola{
-background-image: linear-gradient(#6A1B9A,#8E44AD);
+background-image: linear-gradient(#760031,#BD114A);
 color: white;
 display: block;
 text-align:center;
