@@ -90,14 +90,14 @@ padding: 4px 8px;
 }
 
 
- .estudantes_todos{
+.estudantes_todos{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 25px;
-    max-width: 1300px;
+    flex-wrap: nowrap;
+    gap: 15px;
     margin: 0 auto;
 }
+
 
 .escola{
 background-image: linear-gradient(#40A2E3,#7FC2EF);
