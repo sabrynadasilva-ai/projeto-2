@@ -40,11 +40,11 @@ width: 25%;
 padding-right: 30px;
 }
 .banner1{
-    height: 250px;
-    background: #E8DDF5;
+      height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #E8DDF5;
 }
 
 .banner-texto{
@@ -58,6 +58,7 @@ padding-right: 30px;
 
 .banner-texto p{
     font-size: 24px;
+     color: #444;
 }
 
 .estudante_titulo{
