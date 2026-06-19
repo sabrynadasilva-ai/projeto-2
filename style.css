@@ -8,12 +8,14 @@ box-sizing: border-box;
 body{
 font-family: "Poppins", sans-serif;
 }
+
 header{
-background-color: #424e61;
-color: white;
+background-color: #D8CDE5;
+color: rgb(243, 134, 225);
 width: 100%;
-padding: 35px 20px;
+padding: 40px 25px;
 }
+
 .cabecalho-itens{
     display: flex;
     align-items: center;
