@@ -21,7 +21,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-.cabecalho-imagem{
+.cabecalho_imagem{
 width: 10%;
 display: flex;
 justify-content: flex-start;
@@ -77,8 +77,7 @@ width: 38px;
 padding: 4px 8px;
 }
 .estudante{
-background-image: background-color(#faae43);
-padding: 24px 0;
+    padding: 24px 0;
 }
 
 .estudante-div{
@@ -90,7 +89,7 @@ padding: 24px 0;
     box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
 }
 
-  .estudantes.todos{
+ .estudantes_todos{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
