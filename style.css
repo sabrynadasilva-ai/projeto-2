@@ -70,7 +70,7 @@ text-align: center;
 text-align: center;
 }
 .estudante-imagem{
-width: 90px;
+width: 100px;
 }
 .estudante-icone{
 width: 38px;
@@ -81,7 +81,7 @@ padding: 4px 8px;
 }
 
 .estudante-div{
-    width: 150px;
+    width: 170px;
     background: white;
     border-radius: 15px;
     padding: 10px;
@@ -93,8 +93,9 @@ padding: 4px 8px;
 .estudantes_todos{
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
-    gap: 15px;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
