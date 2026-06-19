@@ -15,24 +15,29 @@ width: 100%;
 padding: 20px;
 }
 .cabecalho-itens{
-max-width: 1980px;
-margin: 0 auto;
+
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: space-between;
+padding: 0 30px;
 }
 .cabecalho_imagem{
-width: 80%;
-height: 80px;
-border-radius: 50%;
-object-fit: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
 }
+
+.sociais img{
+    width: 45px;
+    height: 45px;
+}
+
 .titulo_site{
-padding: 20px;
-text-align: center;
-width: 50%;
-font-family: 'Dancing Script', cursive;
-font-size: 40px;
+ flex: 1;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
 }
 .sociais{
 display: flex;
@@ -40,6 +45,13 @@ justify-content: flex-end;
 width: 25%;
 padding-right: 30px;
 }
+
+.sociais img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
 .banner1{
       height: 180px;
     display: flex;
