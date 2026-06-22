@@ -7,13 +7,14 @@ box-sizing: border-box;
 }
 body{
 font-family: "Poppins", sans-serif;
+background-color: #F8F4FC;
 }
 
 header{
-background-color: #760031;
+background-color: #F3ECFF,#E4D3FF;
 color: rgb(44, 3, 37);
 width: 100%;
-padding: 40px 25px;
+padding: 45px 30px;
 }
 
 .cabecalho-itens{
@@ -58,7 +59,7 @@ padding-right: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  #760031, #bd42bd;
+    background-color:  #d64b85, #bd42bd;
 }
 
 .banner-texto{
@@ -67,7 +68,7 @@ padding-right: 30px;
 
 .banner-texto h1{
     font-size: 45px;
-    color: #811844;
+    color: #ff006a;
 }
 
 .banner-texto p{
