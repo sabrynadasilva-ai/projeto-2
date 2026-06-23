@@ -7,7 +7,7 @@ box-sizing: border-box;
 }
 body{
 font-family: "Poppins", sans-serif;
-background-color:  #e5d3f7;
+background-color:  #F6F0FF;
 }
 
 header{
@@ -39,7 +39,7 @@ header{
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-size: 45px;
-    color: rgb(226, 183, 240);
+    color: rgb(0, 0, 0);
 }
 
 .sociais{
