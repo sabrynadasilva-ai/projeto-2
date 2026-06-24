@@ -56,11 +56,11 @@ padding-right: 30px;
 }
 
 .banner1{
-  height: 180px;
+    height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient (180deg, #FFF7FB, #F2E6FF);
+    background: linear-gradient(#F3E4FF, #E8D4FF);
 }
 
 
@@ -142,4 +142,15 @@ padding: 12px 0;
 .link{
 color: #ffffff;
 text-decoration: none;
+}
+
+a{
+    color: #7A4FC7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #A678F0;
+    text-decoration: underline;
 }
