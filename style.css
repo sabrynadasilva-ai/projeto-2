@@ -95,12 +95,14 @@ text-align: center;
 font-family: 'PT Serif', serif;
 }
 .estudante-imagem{
-width: 100px;
+width: 130px;
+height: 180px;
 margin-top: 10px;
 margin-bottom: 10px;
 }
+
 .estudante-icone{
-width: 38px;
+width: 45px;
 padding: 4px 8px;
 }
 .estudante{
@@ -113,12 +115,12 @@ padding: 4px 8px;
 
 .estudante-div{
     width: 170px;
-    background: #bebebe;
+    background: #dfdfdf;
     border-radius: 20px;
     padding: 15px;
     text-align: center;
     box-shadow: 0px 4px 12px rgba(0,0,0,0.15), 0px 0px 10px rgba(212,175,55,0.5);
-    border: 3px solid #D4AF37;
+    border: 5px solid #D4AF37;
 }
 
 
