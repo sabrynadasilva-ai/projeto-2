@@ -60,7 +60,7 @@ padding-right: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#FE3F75, #6D0026);
+    background: linear-gradient(180deg, #FFD2E0, #FFC1D5);
 }
 
 
@@ -70,7 +70,7 @@ padding-right: 30px;
 
 .banner-texto h1{
     font-size: 65px;
-    color:  #7A4FC7;
+    color:   #C2185B;
 }
 
 .banner-texto p{
@@ -81,7 +81,7 @@ padding-right: 30px;
 .estudante_titulo{
     padding: 30px;
     text-align: center;
-    color: #F8E8FF;
+    color:  #85062F;
     font-size: 45px;
 }
 
@@ -145,12 +145,11 @@ text-decoration: none;
 }
 
 a{
-    color: #7A4FC7;
+    color: black;
     text-decoration: none;
-    font-weight: bold;
+    
 }
 
 a:hover{
-    color: #A678F0;
-    text-decoration: underline;
+    color: black;
 }
