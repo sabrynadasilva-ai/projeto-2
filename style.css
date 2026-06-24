@@ -11,10 +11,10 @@ background-color:  #F6F0FF;
 }
 
 header{
-    background: linear-gradient(90deg, #4B1D73, #7A4FC7, #A678F0);
+    background: linear-gradient(90deg, #E7236F, #85062F);
     color: white;
     width: 100%;
-    padding: 25px 20px;
+    padding: 30px 25px;
 }
 
 .cabecalho-itens{
@@ -60,7 +60,7 @@ padding-right: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#F3E4FF, #E8D4FF);
+    background: linear-gradient(#FE3F75, #6D0026);
 }
 
 
