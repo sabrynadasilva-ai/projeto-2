@@ -43,7 +43,7 @@ header{
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-size: 60px;
-    color: rgb(0, 0, 0);
+    color: rgb(#E0AA3E);
 }
 
 .sociais{
@@ -61,13 +61,11 @@ padding-right: 30px;
 
 .banner1{
     height: 180px;
-    background-image: url("fundoCinema.png");
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(90deg, #FFD6E8,#FFF0F7,#FFD6E8);
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 
@@ -115,7 +113,7 @@ padding: 4px 8px;
 
 .estudante-div{
     width: 170px;
-    background: #f2f2f2;
+    background: #bebebe;
     border-radius: 20px;
     padding: 15px;
     text-align: center;
