@@ -104,6 +104,10 @@ padding: 4px 8px;
 }
 .estudante{
     padding: 24px 0;
+    background-image: url("fundoCinema.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .estudante-div{
@@ -128,7 +132,7 @@ padding: 4px 8px;
 
 
 .escola{
-background: linear-gradient(90deg,#5B2A86,#8B5FBF);
+background: linear-gradient(90deg,#E7236F,#85062F);
 color: white;
 display: block;
 text-align:center;
