@@ -41,7 +41,7 @@ header{
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-size: 60px;
-    color: #E0AA3E;
+    color: #ffffff;
 }
 
 .sociais{
@@ -59,7 +59,7 @@ padding-right: 30px;
 
 .banner1{
     height: 180px;
-    background: linear-gradient(90deg, #FFD6E8,#FFF0F7,#FFD6E8);
+    background: linear-gradient(90deg, #ff0070,#ffffff,#ff0171);
     display: flex;
     justify-content: center;
     align-items: center;
