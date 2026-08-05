@@ -202,13 +202,13 @@ border: 3px solid #D4AF37;
     margin-top: 40px; /* Cria um espaço confortável entre o vídeo e o rodapé */
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px){
 
-    .cabecalho-itens{
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
+    .video-responsivo{
+        width:100%;
     }
+
+}
 
     .titulo_site{
         font-size: 40px;
