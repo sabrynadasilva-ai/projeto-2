@@ -197,14 +197,7 @@ border: 3px solid #D4AF37;
     box-shadow:0 8px 20px rgba(0,0,0,.2);
 }
 
-/* Estilos para o container e o iframe do vídeo ficarem responsivos */
-.container-video {
-    width: 100%;
-    max-width: 560px;       /* Mantém o tamanho original máximo no computador */
-    margin: 0 auto 20px auto; /* Centraliza o vídeo e adiciona margem abaixo */
-    padding: 0 10px;        /* Evita que o vídeo cole nas bordas da tela do celular */
-    box-sizing: border-box;
-}
+
 
 .video-responsivo {
     width: 100%;            /* Ocupa toda a largura disponível do container */
@@ -215,5 +208,44 @@ border: 3px solid #D4AF37;
 
 .rodape-conteudo {
     margin-top: 40px; /* Cria um espaço confortável entre o vídeo e o rodapé */
+}
+
+@media (max-width: 768px) {
+
+    .cabecalho-itens{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .titulo_site{
+        font-size: 40px;
+    }
+
+    .sociais{
+        width: 100%;
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .banner-texto h1{
+        font-size: 35px;
+    }
+
+    .estudante_titulo{
+        font-size: 32px;
+    }
+
+    .estudante-div{
+        width: 160px;
+    }
+
+    .video-responsivo{
+        width: 100%;
+    }
+
+    .escola-titulo{
+        font-size: 20px;
+    }
 }
 
