@@ -202,12 +202,32 @@ border: 3px solid #D4AF37;
     margin-top: 40px; /* Cria um espaço confortável entre o vídeo e o rodapé */
 }
 
-@media (max-width:768px){
+@media (max-width: 768px){
 
-    .video-responsivo{
-        width:100%;
+    .cabecalho-itens{
+        justify-content: space-between;
+        padding: 20px;
     }
 
+    .cabecalho_imagem{
+        width: 80px;
+        height: 80px;
+    }
+
+    .titulo_site{
+        font-size: 35px;
+    }
+
+    .sociais{
+        width: auto;
+        padding-right: 0;
+    }
+
+    .sociais img{
+        width: 35px;
+        height: 35px;
+        margin-left: 8px;
+    }
 }
 
     .titulo_site{
