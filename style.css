@@ -20,41 +20,40 @@ header{
 .cabecalho-itens{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 30px 30px;
+    justify-content: space-between;
+    padding: 30px;
 }
 
-
+ 
 .cabecalho_imagem{
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid #FFD700;
-    box-shadow: 0 0 20px #FFD700;
+    width:110px;
+    height:110px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #FFD700;
+    box-shadow:0 0 20px #FFD700;
 }
-
-
+ 
 
 .titulo_site{
-    flex: 1;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
-    font-size: 60px;
-    color: #ffffff;
+    flex:1;
+    text-align:center;
+    font-family:'Dancing Script', cursive;
+    font-size:60px;
+    color:#fff;
 }
 
 .sociais{
-display: flex;
-justify-content: flex-end;
-width: 25%;
-padding-right: 30px;
+    display:flex;
+    gap:12px;
+    width:110px;   /* mesma largura da foto */
+    justify-content:flex-end;
+    padding-right:0;
 }
 
 .sociais img{
-    width: 50px;
-    height: 50px;
-    margin-left: 12px;
+    width:50px;
+    height:50px;
 }
 
 .banner1{
