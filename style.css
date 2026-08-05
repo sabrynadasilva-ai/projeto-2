@@ -196,3 +196,19 @@ border: 3px solid #D4AF37;
     border:6px solid #D4AF37;
     box-shadow:0 8px 20px rgba(0,0,0,.2);
 }
+
+/* Estilos para o container e o iframe do vídeo ficarem responsivos */
+.container-video {
+    width: 100%;
+    max-width: 560px;       /* Mantém o tamanho original máximo no computador */
+    margin: 0 auto 20px auto; /* Centraliza o vídeo e adiciona margem abaixo */
+    padding: 0 10px;        /* Evita que o vídeo cole nas bordas da tela do celular */
+    box-sizing: border-box;
+}
+
+.video-responsivo {
+    width: 100%;            /* Ocupa toda a largura disponível do container */
+    aspect-ratio: 16 / 9;   /* Mantém a proporção correta no celular sem distorcer */
+    height: auto;           /* Calcula a altura proporcional automaticamente */
+    border-radius: 8px;     /* Deixa os cantos levemente arredondados */
+}
