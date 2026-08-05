@@ -212,3 +212,8 @@ border: 3px solid #D4AF37;
     height: auto;           /* Calcula a altura proporcional automaticamente */
     border-radius: 8px;     /* Deixa os cantos levemente arredondados */
 }
+
+.rodape-conteudo {
+    margin-top: 40px; /* Cria um espaço confortável entre o vídeo e o rodapé */
+}
+
