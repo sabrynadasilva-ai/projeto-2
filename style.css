@@ -253,3 +253,53 @@ border: 3px solid #D4AF37;
     }
 
 }
+
+/* MENU DE NAVEGAÇÃO */
+
+.menu {
+    background-color: #85062F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    background-color: #E7236F;
+    border-radius: 8px;
+}
+
+/* DROPDOWN */
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-conteudo {
+    display: none;
+    position: absolute;
+    background-color: #85062F;
+    min-width: 150px;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    border-radius: 0 0 8px 8px;
+}
+
+.dropdown-conteudo a {
+    display: block;
+    padding: 12px 15px;
+}
+
+.dropdown:hover .dropdown-conteudo {
+    display: block;
+}
