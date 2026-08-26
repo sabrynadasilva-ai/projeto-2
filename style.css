@@ -66,8 +66,10 @@ header{
 }
 
 
-.banner-texto{
+ banner-texto{
     text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .banner-texto h1{
@@ -91,6 +93,7 @@ header{
 text-align: center;
 font-family: 'PT Serif', serif;
 }
+
 .estudante-imagem{
 width: 130px;
 height: 180px;
@@ -103,33 +106,43 @@ width: 45px;
 padding: 4px 8px;
 }
 
-.estudante{
-    padding: 50px 20px 80px;
-    background-color: #FCE7EF;
+.estudante {
+    padding: 60px 40px;
+    background-color: #F7F4F9;
     text-align: center;
 }
 
-.estudante-div{
-    width: 170px;
-    background: #dfdfdf;
-    border-radius: 20px;
-    padding: 15px;
+.estudante-div {
+    width: 280px;
+    min-height: 160px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
     text-align: center;
-    box-shadow: 0px 4px 12px rgba(0,0,0,0.15), 0px 0px 10px rgba(212,175,55,0.5);
-    border: 5px solid #D4AF37;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-
-
-.estudantes_todos{
+.estudantes_todos {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 25px;
-    max-width: 1200px;
-    margin: 0 auto;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
 }
 
+
+.estudante-div h2 {
+    color: #85062F;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.estudante-div p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
 
 .escola{
 background: linear-gradient(#ffe7f0,#85062F);
