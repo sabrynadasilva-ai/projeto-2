@@ -66,10 +66,8 @@ header{
 }
 
 
- banner-texto{
+.banner-texto{
     text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
 }
 
 .banner-texto h1{
@@ -108,7 +106,7 @@ padding: 4px 8px;
 
 .estudante {
     padding: 60px 40px;
-    background-color: #F7F4F9;
+    background-color: #ffb7d7;
     text-align: center;
 }
 
@@ -131,19 +129,7 @@ padding: 4px 8px;
     margin: 40px auto;
 }
 
-
-.estudante-div h2 {
-    color: #85062F;
-    font-size: 22px;
-    margin-bottom: 12px;
-}
-
-.estudante-div p {
-    color: #666;
-    font-size: 14px;
-    line-height: 1.5;
-}
-
+ 
 .escola{
 background: linear-gradient(#ffe7f0,#85062F);
 color: white;
