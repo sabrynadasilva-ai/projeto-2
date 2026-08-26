@@ -66,8 +66,10 @@ header{
 }
 
 
-.banner-texto{
+.banner-texto {
     text-align: center;
+    max-width: 650px;
+    margin: 0 auto 30px;
 }
 
 .banner-texto h1{
@@ -75,17 +77,28 @@ header{
     color:   #C2185B;
 }
 
-.banner-texto p{
+banner-texto p {
     font-size: 18px;
-     color: #000000;
+    color: #000000;
+    line-height: 1.5;
 }
 
-.estudante_titulo{
-    padding: 30px;
+.estudante_titulo {
+    padding: 20px;
     text-align: center;
-    color:  #85062F;
+    color: #85062F;
     font-size: 45px;
+    margin-bottom: 5px;
 }
+
+.estudantes_todos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 25px auto 0;
+}
+
 
 .estudante-nome{
 text-align: center;
