@@ -89,6 +89,7 @@ banner-texto p {
     color: #85062F;
     font-size: 45px;
     margin-bottom: 5px;
+    text-shadow: 1px 1px 2px #fff;
 }
 
 .estudantes_todos {
@@ -105,12 +106,15 @@ text-align: center;
 font-family: 'PT Serif', serif;
 }
 
-.estudante-imagem{
-width: 130px;
-height: 180px;
-margin-top: 10px;
-margin-bottom: 10px;
+.estudante-imagem {
+    width: 130px;
+    height: 180px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    border-radius: 5px;
 }
+
 
 .estudante-icone{
 width: 45px;
@@ -121,9 +125,7 @@ padding: 4px 8px;
     padding: 60px 40px;
     background-color: #f3bdd5;
     text-align: center;
-}
-
-.pagina-inicio .estudante {
+ 
     background-image: url("fundoCinema.png");
     background-size: cover;
     background-position: center;
@@ -131,14 +133,15 @@ padding: 4px 8px;
 }
 
 .estudante-div {
-    width: 280px;
-    min-height: 160px;
-    background-color: white;
-    border-radius: 5px;
-    padding: 25px;
+    width: 180px;
+    min-height: 320px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 15px;
     text-align: center;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border: 3px solid #D4AF37;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    transition: 0.3s;
 }
 
 .estudantes_todos {
