@@ -320,14 +320,7 @@ border: 3px solid #D4AF37;
     display: block;
 }
 
-.pagina-inicio .estudante {
-    background-image: url("fundoCinema.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.pagina-inicio .estudante {
+.pagina-inicio .filmes-destaque {
     background-image: url("fundoCinema.png");
     background-size: cover;
     background-position: center;
