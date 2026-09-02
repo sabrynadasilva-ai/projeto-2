@@ -125,12 +125,7 @@ padding: 4px 8px;
     padding: 60px 40px;
     background-color: #f3bdd5;
     text-align: center;
- 
-    background-image: url("fundoCinema.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+} 
 
 .estudante-div {
     width: 180px;
@@ -325,7 +320,14 @@ border: 3px solid #D4AF37;
     display: block;
 }
 
-.inicio {
+.pagina-inicio .estudante {
+    background-image: url("fundoCinema.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pagina-inicio .estudante {
     background-image: url("fundoCinema.png");
     background-size: cover;
     background-position: center;
