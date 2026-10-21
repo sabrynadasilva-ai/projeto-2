@@ -335,3 +335,11 @@ border: 3px solid #D4AF37;
     background-repeat: no-repeat;
 }
 
+
+/* Fundo de cinema na seção de meus momentos */
+.pagina-inicio .series-destaque {
+    background-image: url("fundoCinema.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
