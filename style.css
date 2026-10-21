@@ -327,12 +327,11 @@ border: 3px solid #D4AF37;
     background-repeat: no-repeat;
 }
 
-/* Foto na área rosa */
-.minha-foto-area {
-    background-color: #f3bdd5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 20px;
+/* Fundo de cinema na seção de séries */
+.pagina-inicio .series-destaque {
+    background-image: url("fundoCinema.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
