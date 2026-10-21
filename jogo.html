@@ -1,1 +1,75 @@
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo | Sabryna Silva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pagina-inicio">
+
+ <header class="cabecalho-itens">
+    <img class="cabecalho_imagem" src="minhafoto.png" alt="Logo da Página">
+
+    <h1 class="titulo_site">Sabryna Silva</h1>
+
+    <div class="sociais">
+        <img src="img_WhatsaoD.png" alt="WhatsApp">
+        <img src="img_InstagramD-removebg-preview.png" alt="Instagram">
+        <img src="img_TiktokD-removebg-preview.png" alt="TikTok">
+    </div>
+</header>
+
+    <nav class="menu">
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+
+    <div class="dropdown">
+        <a href="#">Categorias ▾</a>
+
+        <div class="dropdown-conteudo">
+            <a href="filmes.html">Filmes</a>
+            <a href="series.html">Séries</a>
+        </div>
+    </div>
+
+    <a href="jogo.html">Jogo</a>
+    <a href="contato.html">Contato</a>
+</nav>
+
+    
+    <section id="jogo" class="secao-jogo">
+        <h2>Jogue agora 🎮</h2>
+        <p>Entre no jogo e tente sobreviver até o final da noite!</p>
+
+        <div class="quadro-jogo">
+            <iframe
+                id="jogo-frame"
+                src="https://cinco-noites-com-o-antonio.vercel.app/"
+                title="Cinco Noites com o Antônio"
+                allow="autoplay; fullscreen; gamepad"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <button type="button" id="botao-tela-cheia"
+            class="botao-tela-cheia">
+            ⛶ Tela cheia
+        </button>
+
+        <p class="link-jogo">
+            <a href="https://cinco-noites-com-o-antonio.vercel.app/"
+               target="_blank" rel="noopener noreferrer">
+                Abrir o jogo em outra aba
+            </a>
+        </p>
+    </section>
+
+  
+
+    <script src="script.js"></script>
+</body>
+</html>
+

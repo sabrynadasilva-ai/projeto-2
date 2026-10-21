@@ -81,15 +81,14 @@ banner-texto p {
     font-size: 18px;
     color: #000000;
     line-height: 1.5;
-}
-
+ 
 .estudante_titulo {
     padding: 20px;
     text-align: center;
-    color: #ff5d92
+    color: #ff5d92;
     font-size: 45px;
     margin-bottom: 5px;
-    text-shadow: 1px 1px 2px 
+    text-shadow: 1px 1px 2px #85062F;
 }
 
 .estudantes_todos {
@@ -342,4 +341,91 @@ border: 3px solid #D4AF37;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+
+/* ===== JOGO ===== */
+
+.secao-jogo {
+    background: linear-gradient(135deg, #f3bdd5, #fff0f6);
+    padding: 50px 20px;
+    text-align: center;
+    color: #85062F;
+}
+
+.secao-jogo h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.secao-jogo p {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.quadro-jogo {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto 25px;
+    border: 5px solid #D4AF37;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.quadro-jogo iframe {
+    display: block;
+    width: 100%;
+    height: 550px;
+    border: none;
+}
+
+.botao-tela-cheia {
+    background: linear-gradient(#E7236F, #85062F);
+    color: white;
+    border: 2px solid #D4AF37;
+    border-radius: 10px;
+    padding: 12px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao-tela-cheia:hover {
+    background: #85062F;
+    transform: scale(1.04);
+}
+
+.link-jogo {
+    margin-top: 20px;
+}
+
+.link-jogo a {
+    color: #85062F;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.link-jogo a:hover {
+    color: #E7236F;
+}
+
+@media (max-width: 768px) {
+    .secao-jogo {
+        padding: 30px 10px;
+    }
+
+    .secao-jogo h2 {
+        font-size: 34px;
+    }
+
+    .quadro-jogo {
+        width: 100%;
+    }
+
+    .quadro-jogo iframe {
+        height: 400px;
+    }
 }
