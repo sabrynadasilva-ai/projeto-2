@@ -326,3 +326,21 @@ border: 3px solid #D4AF37;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* Foto na área rosa */
+.minha-foto-area {
+    background-color: #f3bdd5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.minha-foto-area img {
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+    border: 3px solid #D4AF37;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+}
